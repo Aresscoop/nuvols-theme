@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Núvols de regals</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tienda de regalos y de vapers con tienda física situada en Valencia">
+        <meta name="keywords" content="Tienda, tienda, regalos, tienda de regalos, tienda de regalos Valencia">
+        <meta name="author" content="Aress">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="{{ 'assets/images/favicon.png' | theme}}">
+        
+        <!-- Css -->
+        <link href="{{ 'assets/libs/tiny-slider/tiny-slider.css' | theme}}" rel="stylesheet">
+        <!-- Bootstrap Css -->
+        <link href="{{ 'assets/css/bootstrap.min.css' | theme}}" id="bootstrap-style" class="theme-opt" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="{{ 'assets/libs/@mdi/font/css/materialdesignicons.min.css' | theme}}" rel="stylesheet" type="text/css">
+        <link href="{{ 'assets/libs/@iconscout/unicons/css/line.css' | theme}}" type="text/css" rel="stylesheet">
+        <!-- Style Css-->
+        <link href="{{ 'assets/css/style.min.css' | theme}}" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div>
+            {% partial "header" %}
+
+            {% page %}
+
+            {% partial "footer" %}
+        </div>
+        <!-- Product View Start -->
+        <div class="modal fade" id="productview" tabindex="-1" aria-labelledby="productview-title" aria-hidden="true">
+            <div class="modal-dialog  modal-lg modal-dialog-centered">
+                <div class="modal-content rounded shadow border-0">
+                    <div class="modal-header border-bottom">
+                        <h5 class="modal-title" id="productview-title">Branded T-Shirts</h5>
+                        <button type="button" class="btn btn-icon btn-close" data-bs-dismiss="modal" id="close-modal"><i
+                                class="uil uil-times fs-4 text-dark"></i></button>
+                    </div>
+
+                    <div class="modal-body p-4">
+                        <div class="container-fluid px-0">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="tiny-single-item">
+                                        <div class="tiny-slide"><img src="{{ 'assets/images/shop/product/single-2.jpg' | theme}}" class="img-fluid rounded" alt=""></div>
+                                                class="img-fluid rounded" alt=""></div>
+                                        <div class="tiny-slide"><img src="{{ 'assets/images/shop/product/single-3.jpg' | theme}}"
+                                                class="img-fluid rounded" alt=""></div>
+                                        <div class="tiny-slide"><img src="{{ 'assets/images/shop/product/single-4.jpg' | theme}}"
+                                                class="img-fluid rounded" alt=""></div>
+                                        <div class="tiny-slide"><img src="{{ 'assets/images/shop/product/single-5.jpg' | theme}}"
+                                                class="img-fluid rounded" alt=""></div>
+                                        <div class="tiny-slide"><img src="{{ 'assets/images/shop/product/single-6.jpg' | theme}}"
+                                                class="img-fluid rounded" alt=""></div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-7 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                                    <h4 class="title">Branded T-Shirts</h4>
+                                    <h5 class="text-muted">$21.00 <del class="text-danger ms-2">$25.00</del> </h5>
+                                    <ul class="list-unstyled text-warning h5">
+                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                        <li class="list-inline-item"><i class="mdi mdi-star"></i></li>
+                                    </ul>
+
+                                    <h5 class="mt-4">Overview :</h5>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                                        exercitationem, unde molestiae sint quae inventore atque minima natus fugiat nihil
+                                        quisquam voluptates ea omnis. Modi laborum soluta tempore unde accusantium.</p>
+
+                                    <div class="row mt-4 pt-2">
+                                        <div class="col-12">
+                                            <div class="d-flex align-items-center">
+                                                <h6 class="mb-0">Your Size:</h6>
+                                                <ul class="list-unstyled mb-0 ms-3">
+                                                    <li class="list-inline-item"><a href="javascript:void(0)"
+                                                            class="btn btn-icon btn-soft-primary">S</a></li>
+                                                    <li class="list-inline-item ms-1"><a href="javascript:void(0)"
+                                                            class="btn btn-icon btn-soft-primary">M</a></li>
+                                                    <li class="list-inline-item ms-1"><a href="javascript:void(0)"
+                                                            class="btn btn-icon btn-soft-primary">L</a></li>
+                                                    <li class="list-inline-item ms-1"><a href="javascript:void(0)"
+                                                            class="btn btn-icon btn-soft-primary">XL</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!--end col-->
+
+                                        <div class="col-12 mt-4">
+                                            <div class="d-flex shop-list align-items-center">
+                                                <h6 class="mb-0">Quantity:</h6>
+                                                <div class="ms-3">
+                                                    <div class="qty-icons">
+                                                        <button
+                                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                                            class="btn btn-icon btn-soft-primary minus">-</button>
+                                                        <input min="0" name="quantity" value="0" type="number"
+                                                            class="btn btn-icon btn-soft-primary qty-btn quantity">
+                                                        <button
+                                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                                            class="btn btn-icon btn-soft-primary plus">+</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+                                    </div><!--end row-->
+
+                                    <div class="mt-4 pt-2">
+                                        <a href="javascript:void(0)" class="btn btn-primary">Shop Now</a>
+                                        <a href="/carrito" class="btn btn-soft-primary ms-2">Add to Cart</a>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div><!--end container-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product View End -->
+
+        <!-- Wishlist Popup Start -->
+        <div class="modal fade" id="wishlist" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content rounded shadow-lg border-0 overflow-hidden">
+                    <div class="modal-body py-5">
+                        <div class="text-center">
+                            <div class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto"
+                                style="height: 95px; width:95px;">
+                                <h1 class="mb-0"><i class="uil uil-heart-break align-middle"></i></h1>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Your wishlist is empty.</h4>
+                                <p class="text-muted">Create your first wishlist request...</p>
+                                <div class="mt-4">
+                                    <a href="javascript:void(0)" class="btn btn-outline-primary">+ Create new wishlist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Wishlist Popup End -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Javascript -->
+        <!-- JAVASCRIPT -->
+        <script src="{{ 'assets/libs/bootstrap/js/bootstrap.bundle.min.js' | theme}}"></script>
+        <!-- SLIDER -->
+        <script src="{{ 'assets/libs/tiny-slider/min/tiny-slider.js' | theme}}"></script>
+        <!-- Main Js -->
+        <script src="{{ 'assets/libs/feather-icons/feather.min.js' | theme}}"></script>
+        <script src="{{ 'assets/js/plugins.init.js' | theme}}"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="{{ 'assets/js/app.js' | theme}}"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

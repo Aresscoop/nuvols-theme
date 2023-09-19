@@ -1,0 +1,150 @@
+<!-- Navbar Start -->
+<header id="topnav" class="defaultscroll sticky">
+    <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="/">
+            <img src="{{ '/assets/images/ndr-horizont.png' | theme}}" width="200" height="auto" class="logo-light-mode" alt="">
+            <img src="{{ '/assets/images/ndr-horizont.png' | theme}}" width="200" height="auto" class="logo-dark-mode" alt="">
+        </a>
+        <!-- End Logo container-->
+
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </div>
+        </div>
+
+        <ul class="buy-button list-inline mb-0">
+            <li class="list-inline-item mb-0">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-icon btn-pills btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-feather="shopping-cart" class="icons"></i></button>
+                    <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 p-4" style="width: 300px;">
+                        <div class="pb-4">
+                            <a href="javascript:void(0)" class="d-flex align-items-center">
+                                <img src="{{ 'assets/images/shop/product/s-1.jpg' | theme}}" class="shadow rounded" style="max-height: 64px;" alt="">
+                                <div class="flex-1 text-start ms-3">
+                                    <h6 class="text-dark mb-0">Camiseta</h6>
+                                    <p class="text-muted mb-0">15€ X 2</p>
+                                </div>
+                                <h6 class="text-dark mb-0">30€</h6>
+                            </a>
+                        </div>
+
+                        <div class="d-flex align-items-center justify-content-between pt-4 border-top">
+                            <h6 class="text-dark mb-0">Total:</h6>
+                            <h6 class="text-dark mb-0">30€</h6>
+                        </div>
+
+                        <div class="mt-3 text-center">
+                            <a href="/carrito" class="btn btn-primary me-2">Ver Carrito</a>
+                            <a href="/checkout" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="list-inline-item mb-0">
+                <div class="dropdown dropdown-primary">
+                    <button type="button" class="btn btn-icon btn-pills btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-feather="user" class="icons"></i></button>
+                    <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-3" style="width: 200px;">
+                        <a class="dropdown-item text-dark" href="#"><i class="uil uil-user align-middle me-1"></i>Mi Cuenta</a>
+                        <a class="dropdown-item text-dark" href="#"><i class="uil uil-clipboard-notes align-middle me-1"></i>Historial Compras</a>
+                        <div class="dropdown-divider my-3 border-top"></div>
+                        <a class="dropdown-item text-dark" href="#"><i class="uil uil-sign-out-alt align-middle me-1"></i> Salir</a>
+                    </div>
+                </div>
+            </li>
+        </ul><!--end login button-->
+
+        <div id="navigation">
+            <!-- Navigation Menu-->   
+            <ul class="navigation-menu">
+                <li><a href="/" class="sub-menu-item">Inicio</a></li>
+                <li><a href="/sobre-nuvols" class="sub-menu-item">Sobre Núvols</a></li>
+                <li class="has-submenu parent-parent-menu-item">
+                    <a href="/tienda" class="sub-menu-item">Categorias</a><span class="menu-arrow"></span>
+                    <ul class="submenu megamenu">
+                        <li>
+                            <ul>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Regalos Para...</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalos para Familia</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Amigos/as</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Parejas</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Falleros/as</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Profes</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Bebés</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Músicos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Hogar</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Regalo para Eventos</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Librería</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Libros Infantiles y<br> Juegos Educativos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Libros Juveniles</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Libros Bonitos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Libros para Adultos</a></li>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Papelería</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Mochilas y Estuches</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Agendas y libretas</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Escritura</a></li> 
+                                <li><a href="/tienda" class="sub-menu-item">Accesorios Escolares</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Personajes favoritos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">El principito</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Mafalda</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Ratoncito pérez</a></li> 
+                                <li><a href="/tienda" class="sub-menu-item">Harry potter</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Disney</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Personajes Marvel y DC</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Otros Personajes</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i>Accesorios y<br> Complementos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Bolsos, Carteras y<br> Monederos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Pañuelos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Paraguas</a></li> 
+                                <li><a href="/tienda" class="sub-menu-item">Gorros y Sombreros</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Llaveros</a></li>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Joyas bonitas</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Anillos</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Pulseras</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Collares</a></li> 
+                                <li><a href="/tienda" class="sub-menu-item">Pendientes</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Marcas Favoritas</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Anekke</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">De La Mur</a></li>
+                                <li><a href="/tienda" class="sub-menu-item">Agatha Ruiz de la Prada</a></li> 
+                                <li><a href="/tienda" class="sub-menu-item">Amparín</a></li> 
+                                <li><a href="/tienda" class="sub-menu-item">Pedrita Parker</a></li> 
+                                <li><a href="/tienda" class="sub-menu-item">Uo</a></li>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Regalos Personalizados</a></li>
+                                <li><a href="/tienda" class="megamenu-head"><i class="uil uil-cloud fs-6 align-middle"></i> Cuidado Personal</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul><!--end navigation menu-->
+        </div><!--end navigation-->
+    </div><!--end container-->
+</header><!--end header-->
+<!-- Navbar End -->
