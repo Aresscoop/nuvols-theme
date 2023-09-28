@@ -1206,14 +1206,14 @@ p {
 }
 
 .blog.blog-warning .tag {
-    background: #f8eca8 !important;
+    background: #ffffbf !important;
 }
 .blog.blog-warning .title:hover,
 .blog.blog-warning .readmore:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .blog.blog-warning .link {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 
 .blog.blog-danger .tag {
@@ -1609,34 +1609,34 @@ p {
 }
 
 .job-box.job-warning .position a:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .job-box.job-warning .company-name:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .job-box.job-warning .title:hover,
 .job-box.job-warning .readmore:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .job-box.job-warning .icons {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .job-box.job-warning.candidate-list .name:hover,
 .job-box.job-warning.company-list .name:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .job-box.job-warning .bg {
-    background-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
 }
 .job-box.job-warning .bg-soft {
     background-color: rgba(241, 116, 37, 0.1) !important;
     border: 1px solid rgba(241, 116, 37, 0.1) !important;
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .job-box.job-warning .btn-soft {
     background-color: rgba(241, 116, 37, 0.05) !important;
     border: 1px solid rgba(241, 116, 37, 0.05) !important;
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
     -webkit-box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
     box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
 }
@@ -1645,8 +1645,8 @@ p {
 .job-box.job-warning .btn-soft:active,
 .job-box.job-warning .btn-soft.active,
 .job-box.job-warning .btn-soft.focus {
-    background-color: #f8eca8 !important;
-    border-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
+    border-color: #ffffbf !important;
     color: #ffffff !important;
 }
 
@@ -1952,7 +1952,7 @@ p {
 }
 
 .categories.category-warning .title:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 
 .categories.category-danger .title:hover {
@@ -2484,38 +2484,38 @@ p {
 }
 .features.feature-warning .read-more,
 .features.feature-warning .color {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .features.feature-warning.feature-clean .icons {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .features.feature-warning.feature-clean .icons i {
     background-color: rgba(241, 116, 37, 0.1);
 }
 .features.feature-warning.feature-clean .title:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .features.feature-warning.feature-full-bg .icon-color {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .features.feature-warning.feature-full-bg:hover {
-    background-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
 }
 .features.feature-warning.key-feature .icon {
     background: linear-gradient(-45deg, transparent, rgba(241, 116, 37, 0.15));
-    color: #f8eca8;
+    color: #ffffbf;
 }
 .features.feature-warning.course-feature .full-img {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .features.feature-warning.explore-feature:hover .icons,
 .features.feature-warning.explore-feature:hover .title {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .features.feature-warning .btn-soft {
     background-color: rgba(241, 116, 37, 0.05) !important;
     border: 1px solid rgba(241, 116, 37, 0.05) !important;
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
     -webkit-box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
     box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
 }
@@ -2524,8 +2524,8 @@ p {
 .features.feature-warning .btn-soft:active,
 .features.feature-warning .btn-soft.active,
 .features.feature-warning .btn-soft.focus {
-    background-color: #f8eca8 !important;
-    border-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
+    border-color: #ffffbf !important;
     color: #ffffff !important;
 }
 .features.feature-warning:hover .image:before {
@@ -3415,22 +3415,22 @@ p {
 
 .nft.nft-warning .title:hover,
 .nft.nft-warning .read-more:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .nft.nft-warning .link {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .nft.nft-warning .author .name:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .nft.nft-warning .bg-soft {
     background-color: rgba(241, 116, 37, 0.1) !important;
     border: 1px solid rgba(241, 116, 37, 0.1) !important;
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .nft.nft-warning .btn {
-    background-color: #f8eca8 !important;
-    border: 1px solid #f8eca8 !important;
+    background-color: #ffffbf !important;
+    border: 1px solid #ffffbf !important;
     color: #ffffff !important;
     -webkit-box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
     box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
@@ -4421,17 +4421,17 @@ p {
     color: #007bbe;
 }
 .pricing.pricing-warning.business-rate:hover {
-    border-color: #f8eca8 !important;
+    border-color: #ffffbf !important;
 }
 .pricing.pricing-warning.business-rate:hover .title {
-    color: #f8eca8;
+    color: #ffffbf;
 }
 .pricing.pricing-warning.starter-plan {
-    border-color: #f8eca8 !important;
+    border-color: #ffffbf !important;
 }
 .pricing.pricing-warning .name,
 .pricing.pricing-warning .icon {
-    color: #f8eca8;
+    color: #ffffbf;
 }
 .pricing.pricing-danger.business-rate:hover {
     border-color: #e43f52 !important;
@@ -4578,7 +4578,7 @@ p {
     border-top-color: #117a8b;
 }
 .ribbon.ribbon-warning span {
-    background-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
 }
 .ribbon.ribbon-warning span:before {
     border-right-color: #d55b0e;
@@ -4751,7 +4751,7 @@ p {
 }
 
 .team.team-warning .name:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 
 .team.team-danger .name:hover {
@@ -5215,19 +5215,19 @@ html[dir="rtl"] .tns-visually-hidden {
 }
 
 .work-container.work-warning .title:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .work-container.work-warning.work-modern .work-icon,
 .work-container.work-warning.work-creative .work-icon {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .work-container.work-warning.work-modern .work-icon:hover,
 .work-container.work-warning.work-creative .work-icon:hover {
-    background: #f8eca8 !important;
+    background: #ffffbf !important;
 }
 .work-container.work-warning .btn {
-    background-color: #f8eca8 !important;
-    border: 1px solid #f8eca8 !important;
+    background-color: #ffffbf !important;
+    border: 1px solid #ffffbf !important;
     color: #ffffff !important;
     -webkit-box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
     box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
@@ -5242,10 +5242,10 @@ html[dir="rtl"] .tns-visually-hidden {
     color: #ffffff !important;
 }
 .work-container.work-warning .bg {
-    background-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
 }
 .work-container.work-warning .link {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 
 .work-container.work-danger .title:hover {
@@ -5735,7 +5735,7 @@ html[dir="rtl"] .tns-visually-hidden {
 }
 
 .event-schedule.event-warning .date {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .event-schedule.event-warning .date .day {
     background: rgba(241, 116, 37, 0.1);
@@ -5743,10 +5743,10 @@ html[dir="rtl"] .tns-visually-hidden {
     box-shadow: 0px 0px 2px 0.25px rgba(241, 116, 37, 0.5);
 }
 .event-schedule.event-warning .content .title:hover {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .event-schedule.event-warning:hover {
-    border-color: #f8eca8 !important;
+    border-color: #ffffbf !important;
 }
 
 .event-schedule.event-danger .date {
@@ -6796,7 +6796,7 @@ html[dir="rtl"] .tns-visually-hidden {
 }
 
 .border-warning {
-    border-color: #f8eca8 !important;
+    border-color: #ffffbf !important;
 }
 
 .border-danger {

@@ -19,7 +19,7 @@
     --bs-pink: #d63384;
     --bs-red: #e43f52;
     --bs-orange: #fd7e14;
-    --bs-yellow: #f8eca8;
+    --bs-yellow: #ffffbf;
     --bs-green: #2eca8b;
     --bs-teal: #20c997;
     --bs-cyan: #007bbe;
@@ -46,7 +46,7 @@
     --bs-secondary: #ced4da;
     --bs-success: #2eca8b;
     --bs-info: #007bbe;
-    --bs-warning: #f8eca8;
+    --bs-warning: #ffffbf;
     --bs-danger: #e43f52;
     --bs-light: #1f2d3d;
     --bs-dark: #f8f9fa;
@@ -3411,8 +3411,8 @@ fieldset:disabled .btn {
 
 .btn-warning {
     --bs-btn-color: #ffffff;
-    --bs-btn-bg: #f8eca8;
-    --bs-btn-border-color: #f8eca8;
+    --bs-btn-bg: #ffffbf;
+    --bs-btn-border-color: #ffffbf;
     --bs-btn-hover-color: #ffffff;
     --bs-btn-hover-bg: #cd631f;
     --bs-btn-hover-border-color: #c15d1e;
@@ -3422,8 +3422,8 @@ fieldset:disabled .btn {
     --bs-btn-active-border-color: #b5571c;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #ffffff;
-    --bs-btn-disabled-bg: #f8eca8;
-    --bs-btn-disabled-border-color: #f8eca8;
+    --bs-btn-disabled-bg: #ffffbf;
+    --bs-btn-disabled-border-color: #ffffbf;
 }
 
 .btn-danger {
@@ -3580,19 +3580,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning {
-    --bs-btn-color: #f8eca8;
-    --bs-btn-border-color: #f8eca8;
+    --bs-btn-color: #ffffbf;
+    --bs-btn-border-color: #ffffbf;
     --bs-btn-hover-color: #ffffff;
-    --bs-btn-hover-bg: #f8eca8;
-    --bs-btn-hover-border-color: #f8eca8;
+    --bs-btn-hover-bg: #ffffbf;
+    --bs-btn-hover-border-color: #ffffbf;
     --bs-btn-focus-shadow-rgb: 241, 116, 37;
     --bs-btn-active-color: #ffffff;
-    --bs-btn-active-bg: #f8eca8;
-    --bs-btn-active-border-color: #f8eca8;
+    --bs-btn-active-bg: #ffffbf;
+    --bs-btn-active-border-color: #ffffbf;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #f8eca8;
+    --bs-btn-disabled-color: #ffffbf;
     --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #f8eca8;
+    --bs-btn-disabled-border-color: #ffffbf;
     --bs-gradient: none;
 }
 
@@ -7955,7 +7955,7 @@ fieldset:disabled .btn {
 }
 
 .link-warning {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .link-warning:hover,
 .link-warning:focus {
@@ -12752,7 +12752,7 @@ label {
 .alert-warning {
     background-color: rgba(241, 116, 37, 0.9);
     color: #ffffff;
-    border-color: #f8eca8;
+    border-color: #ffffbf;
 }
 .alert-warning .alert-link {
     color: #753208;
@@ -12760,8 +12760,8 @@ label {
 
 .alert-outline-warning {
     background-color: transparent;
-    color: #f8eca8 !important;
-    border-color: #f8eca8;
+    color: #ffffbf !important;
+    border-color: #ffffbf;
 }
 
 .alert-danger {
@@ -12906,13 +12906,13 @@ label {
 }
 
 .bg-warning {
-    background-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
 }
 
 .bg-soft-warning {
     background-color: rgba(241, 116, 37, 0.1) !important;
     border: 1px solid rgba(241, 116, 37, 0.1) !important;
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 
 .bg-danger {
@@ -13006,7 +13006,7 @@ a.text-info:focus {
 }
 
 .text-warning {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 
 a.text-warning:hover,
@@ -13208,7 +13208,7 @@ a.text-muted:focus {
 .btn-soft-warning {
     background-color: rgba(241, 116, 37, 0.05) !important;
     border: 1px solid rgba(241, 116, 37, 0.05) !important;
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
     -webkit-box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
     box-shadow: 0 3px 5px 0 rgba(241, 116, 37, 0.1);
 }
@@ -13217,8 +13217,8 @@ a.text-muted:focus {
 .btn-soft-warning:active,
 .btn-soft-warning.active,
 .btn-soft-warning.focus {
-    background-color: #f8eca8 !important;
-    border-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
+    border-color: #ffffbf !important;
     color: #ffffff !important;
 }
 
@@ -13233,10 +13233,10 @@ a.text-muted:focus {
 .btn-link.warning.active,
 .btn-link.warning.focus,
 .btn-link.warning:not(:disabled):not(.disabled):active {
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 .btn-link.warning:after {
-    background-color: #f8eca8 !important;
+    background-color: #ffffbf !important;
 }
 
 .btn-soft-danger {
@@ -13677,7 +13677,7 @@ button:not(:disabled) {
 .dropdown-warning .dropdown-menu .dropdown-item.focus,
 .dropdown-warning .dropdown-menu .dropdown-item:focus {
     background-color: transparent;
-    color: #f8eca8 !important;
+    color: #ffffbf !important;
 }
 
 .dropdown-danger .dropdown-menu .dropdown-item:hover,
