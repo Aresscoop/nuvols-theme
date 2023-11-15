@@ -1,593 +1,543 @@
-title = "Inicio"
 url = "/"
 layout = "default"
+title = "Inicio"
 ==
 
 <!-- Hero Start -->
-<section class="home-slider position-relative">
-    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <div class="bg-home slider-rtl-2 d-flex align-items-center"
-                    style="background:url('{{ 'assets/images/principal/fondo-principal-1.png' | theme}}') center center;">
-                    <div class="bg-overlay bg-overlay-white opacity-5"></div>
-                    <div class="container">
-                        <div class="row align-items-center mt-5">
-                            <div class="col-lg-7 col-md-7">
-                                <div class="title-heading mt-4">
-                                    <h1 class="display-4 fw-bold mb-3 text-black">Regalos <span class="text-primary">únicos</span> y<br> Personalizados</h1>
-                                    <p class="para-desc text-black">Quieres regalar algo diferente y único, en Núvols personalizamos gran variedad de productos, añadiendo nombres, imágenes, frases, etc. Si quieres ver todos los productos que se pueden personalizar puedes hacerlo desde aquí!</p>
-                                    <div class="mt-4">
-                                        <a href="javascript:void(0)" class="btn btn-soft-primary">Saber más</a>
-                                    </div>
-                                </div>
-                            </div><!--end col-->
-                        </div><!--end row-->
-                    </div><!--end container-->
+<section class="bg-half-100 pb-0 d-table w-100 lawyer-wrapper" style="background: url('assets/images/lawyer/bg.jpg') center center;">
+    <div class="bg-overlay bg-black" style="opacity: 0.9;"></div>
+    <div class="bg-overlay bg-linear-gradient-primary" style="opacity: 0.7;"></div>
+    <div class="container position-relative" style="z-index: 2;">
+        <div class="row align-items-center pt-5 pt-sm-0 mt-5 mt-sm-0">
+            <div class="col-md-6">
+                <div class="title-heading">
+                    <h4 class="heading heading-lg fw-bold text-white mb-3 title-dark"> We are Specialise <br> In All <span class="text-primary">Criminal & Civil</span> Laws. </h4>
+                    <p class="para-desc text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <div class="mt-4 pt-2">
+                        <a href="javascript:void(0)" class="btn btn-lg btn-primary">Get In Touch</a>
+                    </div>
                 </div>
-            </div>
+            </div><!--end col-->
 
-            <div class="carousel-item" data-bs-interval="3000">
-                <div class="bg-home slider-rtl-1 d-flex align-items-center"
-                    style="background:url('{{ 'assets/images/principal/fondo-principal-2.png' | theme}}') center center;">
-                    <div class="bg-overlay bg-overlay-white opacity-5"></div>
-                    <div class="container">
-                        <div class="row align-items-center mt-5">
-                            <div class="col-lg-7 col-md-7">
-                                <div class="title-heading mt-4">
-                                    <h1 class="display-4 fw-bold mb-3">Nuevos productos <br><span class="text-primary">Anekke</span> Amazonia</h1>
-                                    <p class="para-desc"><b>Anekke saca su nueva colección, llena de formas abstractas que representa el nuevo viaje de Anekke, las cuales te llevarán a Japón, gracias a sus imágenes y iconografía, si quieres ver todos los productos lo puedes hacer desde aquí!</b></p>
-                                    <div class="mt-4">
-                                        <a href="javascript:void(0)" class="btn btn-soft-primary">Ver Productos</a>
-                                    </div>
-                                </div>
-                            </div><!--end col-->
-                        </div><!--end row-->
-                    </div><!--end container-->
-                </div>
+            <div class="col-md-6 mt-md-5">
+                <img src="{{ 'assets/images/lawyer/avatar.png' | theme }}" class="img-fluid" alt="">
             </div>
-
-            <div class="carousel-item" data-bs-interval="3000">
-                <div class="bg-home slider-rtl-3 d-flex align-items-center"
-                    style="background:url('{{ 'assets/images/principal/fondo-principal-3.png' | theme}}') center center;">
-                    <div class="bg-overlay bg-overlay-white opacity-5"></div>
-                    <div class="container">
-                        <div class="row align-items-center mt-5">
-                            <div class="col-lg-7 col-md-7">
-                                <div class="title-heading mt-4">
-                                    <h1 class="display-4 fw-bold mb-3 text-black"><span class="text-primary">Núvols</span> cuida de ti<br>y de tu piel</h1>
-                                    <p class="para-desc text-black">En Núvols nos encanta cuidar de ti y por eso ofrecemos una gran cantidad de productos para el cuidado personal, como serian: champús sólidos, bálsamos, labiales, packs Beauty, etc. Quieres conocerlos todos? Hazlo desde aquí.</p>
-                                    <div class="mt-4">
-                                        <a href="javascript:void(0)" class="btn btn-soft-primary">Saber más</a>
-                                    </div>
-                                </div>
-                            </div><!--end col-->
-                        </div><!--end row-->
-                    </div><!--end container-->
-                </div>
-            </div>
-        </div>
-    </div>
+        </div><!--end row-->
+    </div> <!--end container-->
 </section><!--end section-->
 <!-- Hero End -->
 
 <!-- Start -->
 <section class="section">
-    <!-- Features Start -->
-    <div class="container-fluid mt-4">
-        <div class="row">
-            <div class="col-md-4 mt-4 pt-2">
-                <div class="card shop-features border-0 rounded overflow-hidden">
-                    <img src="{{ 'assets/images/principal/madre.png' | theme}}" width="600" height="300" class="img-fluid" alnte">
-                    <div class="category-title ms-md-4 ms-2">
-                        <h2 style="font-size: 28px;">Día de la <br> Madre</h2>
-                        <a href="/tienda" class="btn btn-sm btn-soft-primary mt-2">Saber más</a>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-md-4 mt-4 pt-2">
-                <div class="card shop-features border-0 rounded overflow-hidden">
-                    <img src="{{ 'assets/images/principal/padre.png' | theme}}" width="600" height="300" class="img-fluid" alt="">
-                    <div class="category-title ms-md-4 ms-2">
-                        <h2 style="font-size: 28px;">Día del <br> Padre</h2>
-                        <a href="/tienda" class="btn btn-sm btn-soft-primary mt-2">Saber más</a>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-md-4 mt-4 pt-2">
-                <div class="card shop-features border-0 rounded overflow-hidden">
-                    <img src="{{ 'assets/images/principal/outlet.png' | theme}}" width="600" height="300" class="img-fluid" alt="">
-                    <div class="category-title ms-md-4 ms-2">
-                        <h2 style="font-size: 28px;">Visita <span class="text-primary">la Outlet</span><br>precios especiales</h2>
-                        <a href="/tienda" class="btn btn-sm btn-soft-primary mt-2">Saber más</a>
-                    </div>
-                </div>
-            </div><!--end col-->
-        </div><!--end row-->
-    </div><!--end container-->
-    <!-- Features End -->
-
-    <!-- Start Categories -->
-    <div class="container mt-100 mt-60">
-        <!-- <div class="row">
-            <div class="col-12">
-                <h2 class="mb-0">Categorias</h2>
-            </div>
-        </div> -->
+    <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-2 col-md-3 col-6">
-                <a href="/tienda">
-                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
-                        <div class="card-body">
-                            <i class="uil uil-gift" style="font-size: 50px; color: #007bbe;"></i>
-                            <div class="content mt-3">
-                                <h6 class="mb-0"><a href="/tienda" class="title text-dark">Regalos Para</a></h6>
+            <div class="col-lg-12">
+                <div class="features-absolute">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-6 mt-4">
+                            <div class="card features feature-primary feature-clean px-3 py-4 shadow h-100">
+                                <div class="icon text-center rounded-circle text-primary mb-3">
+                                    <i data-feather="users" class="fea icon-ex-md"></i>
+                                </div>
+                                <a href="" class="title text-dark h4 mb-0">Family Violence Helps</a>
                             </div>
-                        </div>
-                    </div>
-                </a>
-            </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-6">
-                <a href="/tienda">
-                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
-                        <div class="card-body">
-                            <i class="uil uil-heart" style="font-size: 50px; color: #fda354;"></i>
-                            <div class="content mt-3">
-                                <h6 class="mb-0"><a href="/tienda" class="title text-dark">Marcas Favoritas</a></h6>
+                        </div><!--end col-->
+                        
+                        <div class="col-lg-2 col-md-4 col-6 mt-4">
+                            <div class="card features feature-primary feature-clean px-3 py-4 shadow h-100">
+                                <div class="icon text-center rounded-circle text-primary mb-3">
+                                    <i data-feather="shield" class="fea icon-ex-md"></i>
+                                </div>
+                                <a href="" class="title text-dark h4 mb-0">Capital Marketing Law</a>
                             </div>
-                        </div>
-                    </div>
-                </a>
-            </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-6">
-                <a href="/tienda">
-                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
-                        <div class="card-body">
-                            <i class="uil uil-watch-alt" style="font-size: 50px; color: #007bbe;"></i>
-                            <div class="content mt-3">
-                                <h6 class="mb-0"><a href="/tienda" class="title text-dark">Complementos</a></h6>
+                        </div><!--end col-->
+                        
+                        <div class="col-lg-2 col-md-4 col-6 mt-4">
+                            <div class="card features feature-primary feature-clean px-3 py-4 shadow h-100">
+                                <div class="icon text-center rounded-circle text-primary mb-3">
+                                    <i data-feather="heart" class="fea icon-ex-md"></i>
+                                </div>
+                                <a href="" class="title text-dark h4 mb-0">Health Care Policy</a>
                             </div>
-                        </div>
-                    </div>
-                </a>
-            </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-6">
-                <a href="/tienda">
-                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
-                        <div class="card-body">
-                            <i class="uil uil-bright" style="font-size: 50px; color: #fda354;"></i>
-                            <div class="content mt-3">
-                                <h6 class="mb-0"><a href="/tienda" class="title text-dark">Joyas Bonitas</a></h6>
+                        </div><!--end col-->
+                        
+                        <div class="col-lg-2 col-md-4 col-6 mt-4">
+                            <div class="card features feature-primary feature-clean px-3 py-4 shadow h-100">
+                                <div class="icon text-center rounded-circle text-primary mb-3">
+                                    <i data-feather="book" class="fea icon-ex-md"></i>
+                                </div>
+                                <a href="" class="title text-dark h4 mb-0">Domestic Law Violence</a>
                             </div>
-                        </div>
-                    </div>
-                </a>
-            </div><!--end col-->
-            <div class="col-lg-2 col-md-3 col-6">
-                <a href="/tienda">
-                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
-                        <div class="card-body">
-                            <i class="uil uil-palette" style="font-size: 50px; color: #007bbe;"></i>
-                            <div class="content mt-3">
-                                <h6 class="mb-0"><a href="/tienda" class="title text-dark">Regalos Personalizados</a></h6>
+                        </div><!--end col-->
+                        
+                        <div class="col-lg-2 col-md-4 col-6 mt-4">
+                            <div class="card features feature-primary feature-clean px-3 py-4 shadow h-100">
+                                <div class="icon text-center rounded-circle text-primary mb-3">
+                                    <i data-feather="home" class="fea icon-ex-md"></i>
+                                </div>
+                                <a href="" class="title text-dark h4 mb-0">Real Estate Laws</a>
                             </div>
-                        </div>
-                    </div>
-                </a>
-            </div><!--end col-->
-            <div class="col-lg-2 col-md-4 col-6">
-                <a href="/tienda">
-                    <div class="card features feature-primary explore-feature border-0 rounded text-center">
-                        <div class="card-body">
-                            <i class="uil uil-books" style="font-size: 50px; color: #fda354;"></i>
-                            <div class="content mt-3">
-                                <h6 class="mb-0"><a href="/tienda" class="title text-dark">Librería</a></h6>
+                        </div><!--end col-->
+                        
+                        <div class="col-lg-2 col-md-4 col-6 mt-4">
+                            <div class="card features feature-primary feature-clean px-3 py-4 shadow h-100">
+                                <div class="icon text-center rounded-circle text-primary mb-3">
+                                    <i data-feather="monitor" class="fea icon-ex-md"></i>
+                                </div>
+                                <a href="" class="title text-dark h4 mb-0">Insurance Plan Needs</a>
                             </div>
-                        </div>
-                    </div>
-                </a>
-            </div><!--end col-->
-        </div><!--end row-->
-    </div><!--end container-->
-    <!-- Start Categories -->
-    
-    <!-- Start Popular -->
-    <div class="container mt-100 mt-60" style="margin-top: 50px;">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="mb-0">Productos que gustan mucho!</h2>
-            </div><!--end col-->
-        </div><!--end row-->
-
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s9.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-9.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Sudadera</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">16.00€ <del class="text-danger ms-2">21.00€</del> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s10.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-10.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Cartera</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">21.00€ <del class="text-danger ms-2">25.00€</del> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s11.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-11.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Zapatillas</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">5.00€ <span class="text-success ms-1">30% off</span> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s12.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-12.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Camiseta</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">18.00€ <del class="text-danger ms-2">22.00€</del> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s9.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-9.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Sudadera</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">16.00€ <del class="text-danger ms-2">21.00€</del> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s10.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-10.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Cartera</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">21.00€ <del class="text-danger ms-2">25.00€</del> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s11.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-11.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Zapatillas</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">5.00€ <span class="text-success ms-1">30% off</span> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-info">Popular</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s12.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-12.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Chaqueta</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">18.00€ <del class="text-danger ms-2">22.00€</del> </h6>
-                        </div>
-                    </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
                 </div>
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
-    <!-- End Popular -->
 
-    <!-- Start CTA -->
-    <div class="container-fluid mt-100 mt-60">
-        <div class="rounded py-5" style="background: url('{{ 'assets/images/shop/cta.jpg' | theme}}') fixed;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title">
-                            <h2 class="fw-bold text-black mb-4">Regalos día de la Madre <br> Descuento del 30%</h2>
-                            <p class="para-desc text-black mb-0">Que hay más bonito que regalarle a una madre en un día tan especial, en Núvols queremos formar parte de ese día, ofreciendote un 30% de descuento en todos los artículos del día de la madre. Si tienes alguna duda o no sabes que regalarle, contáctanos y te asesoraremos!</p>
-                            <div class="mt-4">
-                                <a href="javascript:void(0)" class="btn btn-primary">Saber más</a>
-                            </div>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
-        </div>
-    </div><!--end container-->
-    <!-- End CTA -->
-
-    <!-- Start Recent -->
     <div class="container mt-100 mt-60">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="mb-0">Novedades</h2>
-            </div><!--end col-->
-        </div><!--end row-->
-
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">Nuevo</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s13.jpg' | theme}}" class="img-fluid" 
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-13.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Silla</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">16.00€ <del class="text-danger ms-2">21.00€</del> </h6>
-                        </div>
-                    </div>
-                </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-5">
+                <div class="row">
+                    <div class="col-12"><img src="{{ 'assets/images/lawyer/b1.jpg' | theme }}" class="img-fluid rounded shadow" alt=""></div><!--end col-->
+                    <div class="col-12 mt-4"><img src="{{ 'assets/images/lawyer/b2.jpg' | theme }}" class="img-fluid rounded shadow" alt=""></div><!--end col-->
+                </div><!--end row-->
             </div><!--end col-->
 
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">Nuevo</a></li>
+            <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                <div class="section-title ms-lg-4">
+                    <h5 class="text-primary">About Us</h5>
+                    <h4 class="title mt-2 mb-4">Preserving Relationships <br> Are The Basis Of Success.</h4>
+                    <p class="text-muted">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    
+                    <ul class="list-unstyled text-muted">
+                        <li class="mt-1"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Digital Marketing Solutions for Tomorrow</li>
+                        <li class="mt-1"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Our Talented & Experienced Marketing Agency</li>
+                        <li class="mt-1"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Create your own skin to match your brand</li>
                     </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s14.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <div class="overlay-work">
-                            <div class="py-2 bg-soft-dark rounded-bottom out-stock">
-                                <h6 class="mb-0 text-center">Sin stock</h6>
-                            </div>
-                        </div>
-                        <ul class="list-unstyled shop-icons">
-                            <li><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview"
-                                    class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye"
-                                        class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Zapatos</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">21.00€ <del class="text-danger ms-2">25.00€</del> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
 
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">Nuevo</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s15.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-15.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i
-                                        data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Pantalones</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">5.00€ <span class="text-success ms-1">30% off</span> </h6>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
-
-            <div class="col-lg-3 col-md-6 col-6 mt-4 pt-2">
-                <div class="card shop-list border-0 position-relative">
-                    <ul class="label list-unstyled mb-0">
-                        <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-primary">Nuevo</a></li>
-                    </ul>
-                    <div class="shop-image position-relative overflow-hidden rounded shadow">
-                        <a href="/producto"><img src="{{ 'assets/images/shop/product/s16.jpg' | theme}}" class="img-fluid"
-                                alt=""></a>
-                        <a href="/producto" class="overlay-work">
-                            <img src="{{ 'assets/images/shop/product/s-16.jpg' | theme}}" class="img-fluid" alt="">
-                        </a>
-                        <ul class="list-unstyled shop-icons">
-                            <li class="mt-2"><a href="/carrito" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="card-body content pt-4 p-2">
-                        <a href="/producto" class="text-dark product-name h6">Mascarillas</a>
-                        <div class="d-flex justify-content-between mt-1">
-                            <h6 class="text-dark small fst-italic mb-0 mt-1">18.00€ <del class="text-danger ms-2">22.00€</del> </h6>
+                    <div class="d-flex align-items-center mt-3">
+                        <img src="{{ 'assets/images/client/05.jpg' | theme }}" class="avatar avatar-small rounded-pill shadow-md" alt="">
+                        <div class="flex-1 ms-3">
+                            <h5 class="text-dark mb-0">Cristina Murphy</h6>
+                            <p class="text-muted mb-0">C.E.O.</p>
                         </div>
                     </div>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
-    <!-- End Recent -->
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-end mb-4 pb-2">
+            <div class="col-md-8">
+                <div class="section-title text-center text-md-start">
+                    <h5 class="text-primary">What We Do?</h6>
+                    <h4 class="title mt-2 mb-4">Our Case Studies</h4>
+                    <p class="text-muted mb-0 para-desc">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-md-4 mt-4 mt-sm-0">
+                <div class="text-center text-md-end">
+                    <a href="javascript:void(0)" class="text-primary h6">See More <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 mt-4 pt-2">
+                <div class="tiny-six-item">
+                    <div class="tiny-slide">
+                        <div class="features feature-primary feature-clean position-relative overflow-hidden rounded-md mx-2">
+                            <img src="{{ 'assets/images/lawyer/1.jpg' | theme }}" class="img-fluid" alt="">
+                            <div class="bg-overlay bg-linear-gradient-2"></div>
+                            <div class="position-absolute bottom-0 end-0 start-0 mx-4 mb-4">
+                                <a href="" class="fs-5 title fw-semibold text-white title-dark">Rules of Civil Procedure</a>
+                                <p class="text-white-50 mb-0">Lending Law</p>
+                            </div>
+                        </div><!--end tour post-->
+                    </div>
+                    
+                    <div class="tiny-slide">
+                        <div class="features feature-primary feature-clean position-relative overflow-hidden rounded-md mx-2">
+                            <img src="{{ 'assets/images/lawyer/2.jpg' | theme }}" class="img-fluid" alt="">
+                            <div class="bg-overlay bg-linear-gradient-2"></div>
+                            <div class="position-absolute bottom-0 end-0 start-0 mx-4 mb-4">
+                                <a href="" class="fs-5 title fw-semibold text-white title-dark">Property & Real Estate</a>
+                                <p class="text-white-50 mb-0">Investment Consulting</p>
+                            </div>
+                        </div><!--end tour post-->
+                    </div>
+                    
+                    <div class="tiny-slide">
+                        <div class="features feature-primary feature-clean position-relative overflow-hidden rounded-md mx-2">
+                            <img src="{{ 'assets/images/lawyer/3.jpg' | theme }}" class="img-fluid" alt="">
+                            <div class="bg-overlay bg-linear-gradient-2"></div>
+                            <div class="position-absolute bottom-0 end-0 start-0 mx-4 mb-4">
+                                <a href="" class="fs-5 title fw-semibold text-white title-dark">Civil Litigation</a>
+                                <p class="text-white-50 mb-0">Tax & Benefits</p>
+                            </div>
+                        </div><!--end tour post-->
+                    </div>
+                    
+                    <div class="tiny-slide">
+                        <div class="features feature-primary feature-clean position-relative overflow-hidden rounded-md mx-2">
+                            <img src="{{ 'assets/images/lawyer/4.jpg' | theme }}" class="img-fluid" alt="">
+                            <div class="bg-overlay bg-linear-gradient-2"></div>
+                            <div class="position-absolute bottom-0 end-0 start-0 mx-4 mb-4">
+                                <a href="" class="fs-5 title fw-semibold text-white title-dark">Labours Relations Board</a>
+                                <p class="text-white-50 mb-0">Merges & Acquisitions</p>
+                            </div>
+                        </div><!--end tour post-->
+                    </div>
+                    
+                    <div class="tiny-slide">
+                        <div class="features feature-primary feature-clean position-relative overflow-hidden rounded-md mx-2">
+                            <img src="{{ 'assets/images/lawyer/5.jpg' | theme }}" class="img-fluid" alt="">
+                            <div class="bg-overlay bg-linear-gradient-2"></div>
+                            <div class="position-absolute bottom-0 end-0 start-0 mx-4 mb-4">
+                                <a href="" class="fs-5 title fw-semibold text-white title-dark">The Labour code</a>
+                                <p class="text-white-50 mb-0">Construction Law</p>
+                            </div>
+                        </div><!--end tour post-->
+                    </div>
+                    
+                    <div class="tiny-slide">
+                        <div class="features feature-primary feature-clean position-relative overflow-hidden rounded-md mx-2">
+                            <img src="{{ 'assets/images/lawyer/6.jpg' | theme }}" class="img-fluid" alt="">
+                            <div class="bg-overlay bg-linear-gradient-2"></div>
+                            <div class="position-absolute bottom-0 end-0 start-0 mx-4 mb-4">
+                                <a href="" class="fs-5 title fw-semibold text-white title-dark">Patient Checkup</a>
+                                <p class="text-white-50 mb-0">Health Care Law</p>
+                            </div>
+                        </div><!--end tour post-->
+                    </div>
+                    
+                    <div class="tiny-slide">
+                        <div class="features feature-primary feature-clean position-relative overflow-hidden rounded-md mx-2">
+                            <img src="{{ 'assets/images/lawyer/7.jpg' | theme }}" class="img-fluid" alt="">
+                            <div class="bg-overlay bg-linear-gradient-2"></div>
+                            <div class="position-absolute bottom-0 end-0 start-0 mx-4 mb-4">
+                                <a href="" class="fs-5 title fw-semibold text-white title-dark">Personal Injury</a>
+                                <p class="text-white-50 mb-0">Personal</p>
+                            </div>
+                        </div><!--end tour post-->
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-fluid-->
+</section><!--end section-->
+<!-- End -->
+
+<!-- CTA Start -->
+<section class="section bg-cta" style="background: url('assets/images/lawyer/bg2.jpg');" id="cta">
+    <div class="bg-overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-12 text-center">
+                <div class="section-title">
+                    <h4 class="title title-dark text-white mb-4">Speak With Our Expert <br> Lawyers Today!</h4>
+                    <p class="text-white-50 para-dark para-desc mx-auto mb-4">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    
+                    <a href="" class="btn btn-primary">Free Consultation</a>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- CTA End -->
+
+<!-- Start -->
+<section class="section">
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="features-absolute card shadow px-4 py-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 col-6">
+                            <div class="text-center">
+                                <h6 class="mb-0 text-primary">Trusted Clients</h6>
+                                <h2 class="mb-0 display-6 mt-2 fw-bold"><span class="counter-value" data-target="24">2</span>k</h2>
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-md-3 col-6">
+                            <div class="text-center">
+                                <h6 class="mb-0 text-primary">Recovered Clients</h6>
+                                <h2 class="mb-0 display-6 mt-2 fw-bold"><span class="counter-value" data-target="12">1</span>k</h2>
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-md-3 col-6">
+                            <div class="text-center">
+                                <h6 class="mb-0 text-primary">Special Cases</h6>
+                                <h2 class="mb-0 display-6 mt-2 fw-bold"><span class="counter-value" data-target="99">1</span>%</h2>
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-md-3 col-6">
+                            <div class="text-center">
+                                <h6 class="mb-0 text-primary">Personal Injury Cases</h6>
+                                <h2 class="mb-0 display-6 mt-2 fw-bold"><span class="counter-value" data-target="32">4</span>k</h2>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
 
     <div class="container mt-100 mt-60">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
-                <div class="section-title">
-                    <h2 class="title mb-4">Se puede regalar cualquier cosa, pero si quieres llegar al corazón <span class="text-primary">#regalabonito</span></h2>
+                <div class="section-title mb-4 pb-2">
+                    <h4 class="title mb-4">Client's Testimonial</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row justify-content-center">
+            <div class="col-lg-12 mt-4 pt-2">
+                <div class="tiny-three-item">
+                    <div class="tiny-slide">
+                        <div class="card border-0 text-center bg-transparent">
+                            <div class="card-body py-0">
+                                <img src="{{ 'assets/images/client/01.jpg' | theme }}" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                <p class="text-muted mt-4">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
+                                <h6 class="text-primary">- Thomas Israel</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide">
+                        <div class="card border-0 text-center bg-transparent">
+                            <div class="card-body py-0">
+                                <img src="{{ 'assets/images/client/02.jpg' | theme }}" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                <p class="text-muted mt-4">" The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
+                                <h6 class="text-primary">- Carl Oliver</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide">
+                        <div class="card border-0 text-center bg-transparent">
+                            <div class="card-body py-0">
+                                <img src="{{ 'assets/images/client/03.jpg' | theme }}" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                <p class="text-muted mt-4">" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "</p>
+                                <h6 class="text-primary">- Barbara McIntosh</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide">
+                        <div class="card border-0 text-center bg-transparent">
+                            <div class="card-body py-0">
+                                <img src="{{ 'assets/images/client/04.jpg' | theme }}" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                <p class="text-muted mt-4">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
+                                <h6 class="text-primary">- Jill Webb</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide">
+                        <div class="card border-0 text-center bg-transparent">
+                            <div class="card-body py-0">
+                                <img src="{{ 'assets/images/client/05.jpg' | theme }}" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                <p class="text-muted mt-4">" There is now an abundance of readable dummy texts. These are usually used when a text is required. "</p>
+                                <h6 class="text-primary">- Dean Tolle</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide">
+                        <div class="card border-0 text-center bg-transparent">
+                            <div class="card-body py-0">
+                                <img src="{{ 'assets/images/client/06.jpg' | theme }}" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                <p class="text-muted mt-4">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "</p>
+                                <h6 class="text-primary">- Christa Smith</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="section-title mb-4 pb-2">
+                    <h4 class="title mb-4">Best Lawyer Team</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
 
         <div class="row">
-            <div class="col-md-4 col-12 mt-4 pt-2">
-                <div class="card text-center rounded border-0">
-                    <div class="card-body">
-                        <i class="uil uil-gift" style="font-size: 50px; color: #007bbe;"></i>
-                        <div class="mt-4">
-                            <h3 class="text-dark" style="font-size: 20px;">ENVOLVEMOS REGALOS GRATIS</h3>
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <div class="card team team-primary text-center bg-transparent border-0">
+                    <div class="card-body p-0">
+                        <div class="position-relative">
+                            <img src="{{ 'assets/images/client/01.jpg' | theme }}" class="img-fluid avatar avatar-ex-large rounded-circle" alt="">
+                            <ul class="list-unstyled mb-0 team-icon">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="facebook" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="instagram" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="twitter" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="linkedin" class="icons"></i></a></li>
+                            </ul><!--end icon-->
                         </div>
+                        <div class="content pt-3 pb-3">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Ronny Jofra</a></h5>
+                            <small class="designation text-muted">Advocate</small>
+                        </div>                                
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <div class="card team team-primary text-center bg-transparent border-0">
+                    <div class="card-body p-0">
+                        <div class="position-relative">
+                            <img src="{{ 'assets/images/client/04.jpg' | theme }}" class="img-fluid avatar avatar-ex-large rounded-circle" alt="">
+                            <ul class="list-unstyled mb-0 team-icon">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="facebook" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="instagram" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="twitter" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="linkedin" class="icons"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                        <div class="content pt-3 pb-3">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Micheal Carlo</a></h5>
+                            <small class="designation text-muted">Advocate</small>
+                        </div>                                
                     </div>
                 </div>
             </div><!--end col-->
             
-            <div class="col-md-4 col-12 mt-4 pt-2">
-                <div class="card text-center rounded border-0">
-                    <div class="card-body">
-                        <i class="uil uil-truck" style="font-size: 50px; color: #fda354;"></i>
-                        <div class="mt-4">
-                            <h3 class="text-dark" style="font-size: 20px;">ENVÍAMOS EN 24/48 HORAS</h3>
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <div class="card team team-primary text-center bg-transparent border-0">
+                    <div class="card-body p-0">
+                        <div class="position-relative">
+                            <img src="{{ 'assets/images/client/02.jpg' | theme }}" class="img-fluid avatar avatar-ex-large rounded-circle" alt="">
+                            <ul class="list-unstyled mb-0 team-icon">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="facebook" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="instagram" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="twitter" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="linkedin" class="icons"></i></a></li>
+                            </ul><!--end icon-->
                         </div>
+                        <div class="content pt-3 pb-3">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Aliana Rosy</a></h5>
+                            <small class="designation text-muted">Advocate</small>
+                        </div>                                
                     </div>
                 </div>
             </div><!--end col-->
             
-            <div class="col-md-4 col-12 mt-4 pt-2">
-                <div class="card text-center rounded border-0">
-                    <div class="card-body">
-                        <i class="uil uil-google" style="font-size: 50px; color: #007bbe;"></i>
-                        <div class="mt-4">
-                            <h3 class="text-dark" style="font-size: 20px;"><a href="javascript:void(0)">RESEÑAS DE GOOGLE</a></h3>
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <div class="card team team-primary text-center bg-transparent border-0">
+                    <div class="card-body p-0">
+                        <div class="position-relative">
+                            <img src="{{ 'assets/images/client/03.jpg' | theme }}" class="img-fluid avatar avatar-ex-large rounded-circle" alt="">
+                            <ul class="list-unstyled mb-0 team-icon">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="facebook" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="instagram" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="twitter" class="icons"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-primary btn-pills btn-sm btn-icon"><i data-feather="linkedin" class="icons"></i></a></li>
+                            </ul><!--end icon-->
                         </div>
+                        <div class="content pt-3 pb-3">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Sofia Razaq</a></h5>
+                            <small class="designation text-muted">Advocate</small>
+                        </div>                                
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title mb-4 pb-2">
+                    <h4 class="title mb-4">Latest News</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow">
+                    <div class="position-relative">
+                        <img src="{{ 'assets/images/lawyer/b1.jpg' | theme }}" class="card-img-top rounded-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">Design your apps in your own way</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="/blog-detail" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow">
+                    <div class="position-relative">
+                        <img src="{{ 'assets/images/lawyer/b2.jpg' | theme }}" class="card-img-top rounded-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">How apps is changing the IT world</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="/blog-detail" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                <div class="card blog blog-primary rounded border-0 shadow">
+                    <div class="position-relative">
+                        <img src="{{ 'assets/images/lawyer/b3.jpg' | theme }}" class="card-img-top rounded-top" alt="...">
+                        <div class="overlay rounded-top"></div>
+                    </div>
+                    <div class="card-body content">
+                        <h5><a href="javascript:void(0)" class="card-title title text-dark">Smartest Applications for Business</a></h5>
+                        <div class="post-meta d-flex justify-content-between mt-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                            </ul>
+                            <a href="/blog-detail" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                    <div class="author">
+                        <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                        <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
                     </div>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
 </section><!--end section-->
-<!-- Section End -->
+<!-- End -->
